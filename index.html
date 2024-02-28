@@ -10,6 +10,9 @@
       padding: 7px;
       border-collapse: collapse;
     }
+    *{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
     a {
       text-decoration: none;
       color: blueviolet;
@@ -19,9 +22,10 @@
       font-weight: bolder;
     }
     .heading {
-      color: orange;
+      color: darkgoldenrod;
       font-weight: bold;
-      font-style: italic;
+      background-color: lightgrey;
+      padding: 5px;
     }
     .info {
       color: rgb(255, 98, 0);
@@ -29,10 +33,20 @@
     }
     .prop {
       color:  orangered;
+      background-color: lightyellow;
     }
-    #propLast{
+    /* #propLast{
       font-weight: bolder;
       color: crimson;
+    } */
+
+    #header{
+      background-color: #fefae0;
+      padding: 14px;
+    }
+
+    .angular{
+      color: darkorange;
     }
   </style>
   <link
@@ -45,8 +59,9 @@
 <body>
   <!-- Header Section -->
   <header>
-    <p>
+    <p id="header">
       <svg
+        class="info"
         xmlns="http://www.w3.org/2000/svg"
         width="16"
         height="16"
@@ -60,6 +75,7 @@
       </svg>
       &nbsp;<span class="info">Chetan Asabe</span> &nbsp;&nbsp;&nbsp;
       <svg
+      class="info"
         xmlns="http://www.w3.org/2000/svg"
         width="16"
         height="16"
@@ -74,6 +90,7 @@
       </svg>
       &nbsp;<span class="info">7400000075</span> &nbsp;&nbsp;&nbsp;
       <svg
+      class="info"
         xmlns="http://www.w3.org/2000/svg"
         width="16"
         height="16"
@@ -122,22 +139,26 @@
   <section>
     <!-- Home Section -->
     <section id="home">
+      <h2 class="heading">Career Objectives</h2>
+      <p>
+        To work in orgnization where i can learn and grow my skills and help orgnizational growth.
+      </p>
       <h2 class="heading"><b>Professional Summary</b></h2>
       <ul>
         <li>
           Having 1 years of experience in developing Single page Web
-          Applications using Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript,
+          Applications using <span class="angular">Angular 8</span>, HTML5, CSS3, Bootstrap 5, JavaScript,
           TypeScript
         </li>
         <li class="prop">
           Experience on working with version control system - GIT and GitHub
         </li>
-        <li class="prop">Experience working with JIRA for user stories and bug tracking</li>
+        <li>Experience working with JIRA for user stories and bug tracking</li>
         <li>
           Strong Debugging & Troubleshooting code experience using Chrome
           Developer Tool
         </li>
-        <li class="prop">Working exposure on ID's like VS Code and Notepad++</li>
+        <li>Working exposure on ID's like VS Code and Notepad++</li>
         <li>Good working experience under Agile methodologies environment</li>
         <li>
           Experience in using Chrome Developer Tool for debugging and

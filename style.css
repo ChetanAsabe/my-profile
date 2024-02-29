@@ -1,0 +1,52 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 5px;
+}
+header span{
+    margin-right: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  padding-right: 16px;
+}
+
+li {
+  padding: 15px;
+}
+
+
+section {
+  margin: 10px 0px;
+}
+
+nav{
+    margin: 10px 0px;
+}
+
+#resume {
+  color: black;
+  font-weight: bolder;
+  padding-left: 0px;
+}
+.heading {
+  font-weight: bold;
+  padding: 8px;
+  background-color: aliceblue;
+}
+.info {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.angular {
+  color: darkorange;
+}

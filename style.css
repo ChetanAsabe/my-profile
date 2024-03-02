@@ -3,7 +3,7 @@
 * {
   margin-left: 5px;
 }
-body{
+body {
   font-family: "Montserrat", sans-serif;
 }
 header span {
@@ -41,6 +41,15 @@ nav {
   font-weight: bolder;
   padding-left: 0px;
 }
+
+.roles {
+  list-style-type: square;
+}
+
+.roles li{
+  padding-top: 10px;
+}
+
 .heading {
   font-family: "Inter", sans-serif;
   font-weight: bold;
@@ -55,4 +64,11 @@ nav {
 
 .angular {
   color: darkorange;
+}
+
+.listSummary li{
+  list-style: none;
+}
+.listSummary li::marker{
+  content: "✍️"; 
 }

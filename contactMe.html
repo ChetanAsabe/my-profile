@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+        h2::selection{
+            background-color: bisque;
+        }
+        button{
+            padding: 5px;
+        }
+        th, td{
+            padding: 10px;
+        }
+        input[type="text"], input[type="email"] {
+            border: 1px solid grey;
+            border-radius: 5px;
+            text-transform: capitalize;
+            width: 200px;
+            padding: 10px;
+        }
+        input[type="email"]{
+            text-transform: lowercase;
+        }
+        button:hover{
+            color: white;
+            background-color: black;
+        }
+    </style>
+  </head>
+  <body>
+    <h2>Contact me</h2>
+    <table>
+      <tbody>
+        <tr>
+          <td><label>Full Name</label></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td><label>Email</label></td>
+          <td><input type="email" /></td>
+        </tr>
+        <tr>
+          <td><label>Question</label></td>
+          <td><textarea name="" id="" cols="27" rows="5"></textarea></td>
+        </tr>
+        <tr>
+          <td><button type="submit">Send Q</button></td>
+          <td><button type="">Clear info</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

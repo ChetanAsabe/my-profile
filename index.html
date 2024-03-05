@@ -16,39 +16,38 @@
 
 <body>
   <!-- Header Section -->
-  <header class="heading">
-    <i class="fa-solid fa-user"></i>
-    <span class="info">Chetan Asabe</span>
-    <i class="fa-solid fa-phone"></i>
-    <span class="info">7400000075</span>
-    <i class="fa-solid fa-envelope"></i>
-    <span class="info">chetan@gmail.com</span>
-    <a href="" id="resume"><i class="fa-solid fa-download"></i>Resume</a>
-  </header>
-  <hr />
+  <section class="navi">
+    <header class="heading head">
+      <i class="fa-solid fa-user"></i>
+      <span class="info">Chetan Asabe</span>
+      <i class="fa-solid fa-phone"></i>
+      <span class="info">7400000075</span>
+      <i class="fa-solid fa-envelope"></i>
+      <span class="info">chetan@gmail.com</span>
+      <a href="" id="resume"><i class="fa-solid fa-download"></i>Resume</a>
+    </header>
+  
+    <!-- Navigaion Section -->
+    <nav id="navSection">
+      <a href="#home">Home</a>
+      <a href="#techStack">Tech Stack</a>
+      <a href="#project">Projects</a>
+      <a href="#education">Education</a>
+      <a href="personalDetail.html" target="_blank">Personal Detail</a>
+      <a href="others.html" target="_blank">Others</a>
+    </nav>
+  </section>
 
-  <!-- Navigaion Section -->
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#techStack">Tech Stack</a>
-    <a href="#project">Projects</a>
-    <a href="#education">Education</a>
-    <a href="personalDetail.html" target="_blank">Personal Detail</a>
-    <a href="others.html" target="_blank">Others</a>
-  </nav>
-
-  <hr />
-
+  <hr>
   <!-- Main Section -->
-  <section>
+  <section class="container">
     <!-- Home Section -->
     <section id="home">
       <h2 class="heading">Career Objectives</h2>
-      <p>
+      <p class="obj">
         To work in orgnization where i can learn and grow my skills and help
         orgnizational growth.
       </p>
-      <hr />
       <h2 class="heading"><b>Professional Summary</b></h2>
       <ul class="listSummary">
         <li>
@@ -76,7 +75,6 @@
         </li>
       </ul>
     </section>
-    <hr />
 
     <!-- Tech Stack -->
     <section id="techStack">
@@ -109,26 +107,26 @@
         </tr>
       </table>
     </section>
-    <hr />
 
     <!-- Project Section -->
 
     <section id="project">
       <h2 class="heading">Project Details</h2>
-      <p><b>Name :</b> Student Management</p>
-      <p>
-        <b>Environment :</b> Angular 8, Typescript, JavaScript(ES6), HTML5, CSS,
-        Bootstrap, Github, Agile & Jira
-      </p>
-      <p><b>Team Size :</b> 06 <b>Duration:</b>2021-01-jul till present</p>
-      <p>
-        <b>Project Description :</b> This project is mainly used for student
-        management in colleges, where It help to manage student record like
-        student registration, student update information and to see all his or
-        her academic activities like score card, attendance.
-      </p>
-      <hr />
-      <p><b>Roles & Responsibilities :</b></p>
+      <div class="details">
+        <p><b>Name :</b> Student Management</p>
+        <p>
+          <b>Environment :</b> Angular 8, Typescript, JavaScript(ES6), HTML5,
+          CSS, Bootstrap, Github, Agile & Jira
+        </p>
+        <p><b>Team Size :</b> 06 <b>Duration:</b>2021-01-jul till present</p>
+        <p>
+          <b>Project Description :</b> This project is mainly used for student
+          management in colleges, where It help to manage student record like
+          student registration, student update information and to see all his or
+          her academic activities like score card, attendance.
+        </p>
+      </div>
+      <h2 class="heading"><b>Roles & Responsibilities :</b></h2>
       <ol class="roles">
         <li>
           Designed and implemented the user interface using HTML 5 and CSS
@@ -149,7 +147,6 @@
         </li>
       </ol>
     </section>
-    <hr />
     <!-- Education Section -->
 
     <section id="education">
@@ -185,24 +182,18 @@
         </tr>
       </table>
     </section>
-
-    <hr />
+    
   </section>
-
   <!-- Footer Section -->
   <footer>
-    <section>
-      <span><b>Follow us on</b> </span>
-      <span>
+    <section >
+        Follow us on 
         <a href=""><i class="fa-brands fa-instagram"></i></a>
         <a href=""><i class="fa-brands fa-facebook"></i></a>
         <a href=""><i class="fa-brands fa-linkedin"></i></a>
-      </span>
-      <hr />
-      <!-- Copy write section -->
-      <section>
-        <h6>Copyright &copy;2024. Inc. All rights reserved.</h6>
+        <span>Copyright &copy;2024. Inc. All rights reserved.</span>
       </section>
+      <span id="chat"><i class="fa-solid fa-message"></i></span>
     </section>
   </footer>
 </body>

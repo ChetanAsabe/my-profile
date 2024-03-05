@@ -1,13 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-  margin-left: 5px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
 }
 header span {
   margin-right: 20px;
+}
+
+
+
+.container {
+  width: 1000px;
+  margin: 20px auto;
 }
 
 table,
@@ -16,12 +27,14 @@ td {
   border: 1px solid;
   border-collapse: collapse;
   padding: 10px;
-  width: 50%;
+  width: 10%;
 }
 
 a {
   text-decoration: none;
   padding-right: 16px;
+  color: black;
+  font-weight: 600;
 }
 
 li {
@@ -33,7 +46,27 @@ section {
 }
 
 nav {
-  margin: 10px 0px;
+  margin: 10px 15px;
+}
+
+#home{
+  margin-top: 96px;
+}
+
+#navSection{
+  padding: 10px;
+  text-align: center;
+  font-size: large;
+}
+
+#navSection li{
+  display: inline;
+  margin-right: 40px;
+}
+
+#navSection a {
+  text-decoration: none;
+
 }
 
 #resume {
@@ -51,12 +84,31 @@ nav {
 }
 
 .heading {
+  text-align: center;
   font-family: "Inter", sans-serif;
   font-weight: bold;
-  padding: 8px;
-  background-color: aliceblue;
-  text-shadow: 1px 1px 5px rgba(248, 163, 83, 0.6);
+  padding: 10px;
+  background-color: rgb(255, 249, 243);
+  border-radius: 5px;
+  margin: 10px 0px;
+  text-shadow: 1px 1px 5px rgba(191, 249, 245, 0.6);
 }
+
+.navi{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(255, 249, 243);
+  margin-top: 0;
+  border-bottom: 1px solid black;
+}
+
+.head{
+  margin-top: 0px;
+  background-color: rgb(255, 249, 243);
+  font-size: smaller;
+}
+
 .info {
   font-weight: bold;
   padding-right: 5px;
@@ -69,6 +121,35 @@ nav {
 .listSummary li{
   list-style: none;
 }
+
 .listSummary li::marker{
-  content: "✍️"; 
+  content: "📝"; 
+}
+
+.obj{
+  padding: 15px;
+}
+
+.details{
+  margin: 15px;
+}
+
+.details > p{
+  padding-top: 10px;
+}
+
+footer{
+  margin-left: 15px;
+  /* padding: 10px; */
+  text-align: center;
+  font-size: smaller;
+
+}
+
+#chat{
+  cursor: pointer;
+  font-size: 40px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
 }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food Item</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-weight: 600;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      .card {
+        width: 350px;
+        height: 330px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin: 40px auto;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+          rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      }
+      #photo {
+        width: 100%;
+        border-radius: 20px;
+        position: absolute;
+        padding: 6px;
+      }
+      .btn {
+        border-radius: 20px;
+        padding: 10px 20px;
+        position: absolute;
+        bottom: 30px;
+        right: 20px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+      }
+      .btn1 {
+        border: none;
+        border-radius: 20px;
+        padding: 5px 10px;
+        position: absolute;
+        background-color: red;
+        color: white;
+        top: 15px;
+        left: 15px;
+        font-size: small;
+      }
+      .text {
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+      }
+      p {
+        font-weight: normal;
+        font-size: 14px;
+      }
+      span {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        id="photo"
+        src="assets/ilya-mashkov-_qxbJUr9RqI-unsplash.jpg"
+        alt=""
+      />
+      <button class="btn">Buy Now</button>
+      <button class="btn1">Best Seller</button>
+      <div class="text">
+        <p>
+          <span>Double Veg Burger</span> <br>
+          Lorem ipsum dolor sit amet.</p>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
